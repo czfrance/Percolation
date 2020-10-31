@@ -36,6 +36,7 @@ public class PercolationUF implements IPercolate {
 
         if (myGrid[row][col] != true) {
             myGrid[row][col] = true;
+            myOpenCount++;
 
             int[] deltaR = {-1, 1, 0, 0};
             int[] deltaC = {0, 0, -1, 1};
