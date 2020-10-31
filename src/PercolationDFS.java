@@ -23,8 +23,7 @@ public class PercolationDFS implements IPercolate {
 	/**
 	 * Initialize a grid so that all cells are blocked.
 	 * 
-	 * @param n
-	 *            is the size of the simulated (square) grid
+	 * @param n is the size of the simulated (square) grid
 	 */
 	public PercolationDFS(int n) {
 		myGrid = new int[n][n];
